@@ -1,7 +1,7 @@
 # shikimatemodel_codes
 # POSYBAL_multicore.R
 
-	POSYBAL_multicore.R is a script that has been built to read an FBA model and parse into the linear inverse model. Further a single optimum solution is generated (Biomass maximisation) and used as a starting point for the population run. The model sparce matrix along with a starting point is used and it is parallelised into 6 cores to develop independently random population of x numbers. The individual files are populated further to form a mega collection of iteration that shall constitute the targeted population number. (Multiple different maximasation can also be generated, where each of the cores can start working with different optimum solution further giving much more diverse solution)
+	POSYBAL_multicore.R is a script that has been built to read an FBA model and parse into the linear inverse model. Further a single optimum solution is generated (Biomass maximisation) and used as a seed point for the population run. The script is parallelised into 6 cores to develop independently random population of x numbers. The individual files are populated further to form a mega collection of iteration that shall constitute the targeted population number. (Multiple different maximasation can also be generated, where each of the cores can start working with different optimum solution as seed, further giving diverse solution)
 
 	## Installation
 
